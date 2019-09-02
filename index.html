@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Simple Calculator</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<html>
+<head>
+<body>
+
+   <center>
+   <form name="calculator">
+
+      <div class="card">
+         <input type="" class="text-view" name="display" id="display" readonly>
+
+      <div class="container">
+
+         <table>
+            <tr>
+               <td><input type="button"  value="1" onclick="one(1)"></td>
+               <td><input type="button"  value="2" onclick="one(2)"></td>
+               <td><input type="button"  value="3" onclick="one(3)"></td>
+               <td><input type="button"  value="+" onclick="operate('+')" class="operator"></td>
+            </tr>
+         </table>
+
+
+         <table>
+            <tr>
+                <td><input type="button" value="4" onclick="one(4)"></td>
+                <td><input type="button" value="5" onclick="one(5)"></td>
+                <td><input type="button" value="6" onclick="one(6)"></td>
+                <td><input type="button" value="-" onclick="operate('-')" class="operator"></td>
+             </tr>
+          </table>
+
+
+         <table>
+            <tr>   
+               <td><input type="button"  value="7" onclick="one(7)"></td>
+               <td><input type="button"  value="8" onclick="one(8)"></td>
+               <td><input type="button"  value="9" onclick="one(9)"></td>
+               <td><input type="button"  value="x" onclick="operate('*')" class="operator"></td> 
+             </tr>
+         </table>
+
+
+         <table>
+            <tr>
+               <td><input type="button"  value="C" onclick="fire()" style="background-color:red;"></td>
+               <td><input type="button"  value="0" onclick="one(0)"></td>
+               <td><input type="button"  value="=" onclick="equals()"></td>
+               <td><input type="button"  value="/" onclick="operate('/')" class="operator"></td>
+            </tr>
+         </table>
+
+
+      </div>
+            
+      </div>
+   </form>
+   </center>
+      <script src="js/script.js"></script>
+</body>
+</head>
+</html>
